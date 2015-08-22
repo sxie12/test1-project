@@ -6,6 +6,44 @@ h1 {
     color: #ff0000;
 }
 
+h2 {
+    color: #0000ff;
+}
+
+h3 {
+    color: 808080;
+}
+
 p {
     color: #00ff00;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    background-color: #ddffdd;
+}
+
+.column-one {
+    width: 33%;
+    float: left;
+    background-color: #ffdddd;
+}
+
+.column-two {
+    width: 33%;
+    float: left;
+    background-color: #ffaaaa;
+}
+
+.column-three {
+    width: 34%;
+    float: left;
+    background-color: #ff8888;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    background-color: #ddddff;
 }
