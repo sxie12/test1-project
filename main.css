@@ -22,28 +22,38 @@ p {
     width: 100%;
     float: left;
     background-color: #ddffdd;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .column-one {
-    width: 33%;
+    margin-left: 1%;
+    width: 32%;
     float: left;
     background-color: #ffdddd;
+    display: inline-block;
 }
 
 .column-two {
-    width: 33%;
+    margin-left: 1%;
+    width: 32%;
     float: left;
     background-color: #ffaaaa;
+    display: inline-block;
 }
 
 .column-three {
-    width: 34%;
+    margin-left: 1%;
+    width: 32%;
+    margin-right: 1%;
     float: left;
     background-color: #ff8888;
+    display: inline-block;
 }
 
 .footer {
     width: 100%;
     float: left;
     background-color: #ddddff;
+    margin-top: 10px;
 }
