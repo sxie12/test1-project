@@ -27,8 +27,7 @@ p {
 }
 
 .column-one {
-    margin-left: 1%;
-    width: 32%;
+    width: 33%;
     float: left;
     background-color: #ffdddd;
     display: inline-block;
@@ -46,8 +45,7 @@ p {
 
 .column-three {
     margin-left: 1%;
-    width: 32%;
-    margin-right: 1%;
+    width: 33%;
     float: left;
     background-color: #ff8888;
     display: inline-block;
