@@ -10,6 +10,7 @@ $(document).ready(toggle_col_one);
 
 var toggle_col_one = function() {
    $("column-one-button").click(function() {
+       alert("Clicked");
       $("column-one-list").toggle();
    });
 }
