@@ -58,3 +58,19 @@ p {
     background-color: #ddddff;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    .column-one {
+        width: 100%;
+    }
+
+    .column-two {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .column-three {
+        margin-left: 0%;
+        width: 100%;
+    }
+}

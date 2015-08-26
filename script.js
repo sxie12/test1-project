@@ -1,5 +1,7 @@
 // This is the JavaScript file
 
-function testPage() {
+var load = function testPage() {
     alert("Page loaded");
 }
+
+$(document).ready(load);
