@@ -61,15 +61,18 @@ p {
 
 @media (max-width: 768px) {
     .column-one {
+        margin-top: 10px;
         width: 100%;
     }
 
     .column-two {
+        margin-top: 10px;
         margin-left: 0%;
         width: 100%;
     }
 
     .column-three {
+        margin-top: 10px;
         margin-left: 0%;
         width: 100%;
     }
