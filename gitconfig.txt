@@ -1,0 +1,18 @@
+[user]
+    email = sxie12@illinois.edu
+    name = Shunping Xie
+[credential]
+    helper = netrc -f .netrc.gpg -v
+    helper = gnome-keyring
+[alias]
+    st = status
+    br = branch
+    co = checkout
+    ci = commit
+    aa = add .
+    rv = revert
+    pl = pull
+    ph = push
+    po = pull origin
+    rh = reset --hard HEAD
+    ac = !git add . && git commit
