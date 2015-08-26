@@ -57,6 +57,10 @@ p {
     text-align: right;
 }
 
+.column-three-content {
+    padding-right: 10px;
+}
+
 .footer {
     width: 100%;
     float: left;
