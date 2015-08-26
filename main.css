@@ -35,6 +35,10 @@ p {
     text-align: left;
 }
 
+.column-one-content {
+    padding-left: 10px;
+}
+
 .column-two {
     margin-left: 1%;
     width: 32%;
