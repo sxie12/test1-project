@@ -1,6 +1,7 @@
 body {
     background-color: #fafafa;
     min-width: 320px;
+    margin: 0px;
 }
 
 h1 {
@@ -24,11 +25,20 @@ p {
     float: left;
     background-color: #ddffdd;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.columns {
+    min-height: 500px;
+}
+
+.column {
 }
 
 .column_one {
-    width: 33%;
+    margin-left: 1%;
+    width: 32%;
+    height: 100%;
     float: left;
     background-color: #ffdddd;
     display: inline-block;
@@ -42,6 +52,7 @@ p {
 .column_two {
     margin-left: 1%;
     width: 32%;
+    height: 100%;
     float: left;
     background-color: #ffaaaa;
     display: inline-block;
@@ -50,7 +61,9 @@ p {
 
 .column_three {
     margin-left: 1%;
-    width: 33%;
+    margin-right: 1%;
+    width: 32%;
+    height: 100%;
     float: left;
     background-color: #ff8888;
     display: inline-block;
@@ -65,24 +78,27 @@ p {
     width: 100%;
     float: left;
     background-color: #ddddff;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @media (max-width: 768px) {
     .column_one {
-        margin-top: 10px;
-        width: 100%;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .column_two {
         margin-top: 10px;
-        margin-left: 0%;
-        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
     }
 
     .column_three {
         margin-top: 10px;
-        margin-left: 0%;
-        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
     }
 }
