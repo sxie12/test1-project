@@ -9,9 +9,9 @@ $(document).ready(load);
 $(document).ready(hide_first_column);
 
 var hide_first_column = function() {
-    $("#column-one-button").click(function() {
+    $("#column_one_button").click(function() {
         alert("Clicked");
-        $('div.column-one-list').toggle();
+        $('div.column_one_list').toggle();
     });
 }
 
