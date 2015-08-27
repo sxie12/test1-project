@@ -13,8 +13,6 @@ $(document).on("click", ".column-one-button", function() {
 });
 */
 
-/*
 function hide-column-one() {
     $('div.column-one-list').toggle();
 } 
-*/
