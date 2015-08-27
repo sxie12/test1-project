@@ -7,7 +7,12 @@ var load = function() {
 
 var hide_first_column = function() {
     $('#column_one_button').click(function() {
-        $('div.column_one_list').toggle();
+        $('.column_one_list').toggle(200);
+    });
+}
+
+var category_button = function() {
+    $('#show_hide_categories').click(function() {
     });
 }
 
@@ -28,5 +33,6 @@ $(document).ready(load);
 
 $(document).ready(hide_first_column);
 
+$(document).ready(category_button);
 // $(document).ready(max_column_height);
 

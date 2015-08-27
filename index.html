@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html>
+<!-- Why does Vim not indent HTML properly? -->
 <head>
 <title> My Git Page </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Use multiple stylesheets -->
+<!-- Organize them to make it easier to read -->
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body> 
 <div class="header">
     <h1> First webpage </h1>
     <p> This is my first webpage. Will add more as I learn about front end programming. </p>
-    <a href="https://google.com/"> Google </a>
+    <div class="links">
+        <button id="show_hide_categories"> Categories </button>
+        <ul>
+            <li><a href="https://smile.amazon.com/">Amazon</a></li>
+            <li><a href="https://google.com/">Google</a></li>
+        </ul>
+    </div>
 </div>
-<div class="columns">
-    <div id="column_one" class="column_one column">
-        <div class="column_one_content">
-            <h3> This is the first column </h3>
-            <button id="column_one_button"> Hide Text </button>
-            <div class="column_one_list">
-                <p> Stuff for the first column </p>
-                <p> List of things to do: </p>
-                <ul>
-                    <li> Design page 
-                    <ul> 
-                        <li> Determine size </li>
-                        <li> Determine positions </li>
-                        <li> Determine colors </li>
-                    </ul>
-                    </li>
-                    <li> Make header </li>
-                    <li> Make menu </li>
-                    <li> Make mobile menu </li>
-                    <li> Include more JS </li>
-                    <li> Things to test
+<div class="content">
+    <div class="categories">
+    </div>
+    <div class="columns">
+        <div id="column_one" class="column_one column">
+            <div class="column_one_content">
+                <h3> This is the first column </h3>
+                <button id="column_one_button"> Hide Text </button>
+                <div class="column_one_list">
+                    <p> Stuff for the first column </p>
+                    <p> List of things to do: </p>
                     <ul>
-                        <li> Make columns the same (dynamic) height </li>
+                        <li> Design page 
+                        <ul> 
+                            <li> Determine size </li>
+                            <li> Determine positions </li>
+                            <li> Determine colors </li>
+                        </ul>
+                        </li>
+                        <li> Make header </li>
+                        <li> Make menu </li>
+                        <li> Make mobile menu </li>
+                        <li> Include more JS </li>
+                        <li> Things to test
+                        <ul>
+                            <li> Make columns the same (dynamic) height </li>
+                        </ul>
+                        </li>
                     </ul>
-                    </li>
+                </div>
+            </div>
+        </div>
+        <div id="column_two" class="column_two column">
+            <h3> This is the second column </h3>
+            <p> Stuff for the second column </p>
+            <p> Things completed: </p>
+            <ul>
+                <li> Added a few media queries </li>
+            </ul>
+        </div>
+        <div id="column_three" class="column_three column">
+            <div class="column_three_content">
+                <h3> This is the third column </h3>
+                <p> Stuff for the third column </p>
+                <p> Ideas for main page: </p>
+                <ul>
+                    <li> Include transparent scrolling header </li>
+                    <li> Include option to view older projects </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div id="column_two" class="column_two column">
-        <h3> This is the second column </h3>
-        <p> Stuff for the second column </p>
-        <p> Things completed: </p>
-        <ul>
-            <li> Added a few media queries </li>
-        </ul>
-    </div>
-    <div id="column_three" class="column_three column">
-        <div class="column_three_content">
-            <h3> This is the third column </h3>
-            <p> Stuff for the third column </p>
-            <p> Ideas for main page: </p>
-            <ul>
-                <li> Include transparent scrolling header </li>
-                <li> Include option to view older projects </li>
-            </ul>
+    <!-- Can add inline? styles in HTML just like JS -->
+    <div style="text-align:center">
+        <div class="solo_column">
+            <p>
+            This is a column with fixed width and margins on both sides. The margins should compress when the page is resized to a smaller size.
+            </p>
         </div>
     </div>
 </div>
@@ -66,6 +87,6 @@
     <a href="http://sxie12.github.io/draft1/"> Draft 1 </a>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="script.js"></script>
+<script type="text/javascript" src="script.js?1.01"></script>
 </body>
 </html>

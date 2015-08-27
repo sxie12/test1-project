@@ -1,7 +1,8 @@
 body {
-    background-color: #fafafa;
+    background-color: #f8f8f8;
     min-width: 320px;
     margin: 0px;
+    min-width: 100%;
 }
 
 h1 {
@@ -20,16 +21,52 @@ p {
     color: #00ff00;
 }
 
+.solo_column p {
+    color: #000000;
+}
+
 .header {
     width: 100%;
     float: left;
     background-color: #ddffdd;
     display: inline-block;
-    margin-bottom: 15px;
+    min-height: 150px;
+}
+
+.content {
+    min-height: 600px;
+    width: 100%;
+    display: inline-block;
+}
+
+.categories {
+    background-color: #808080;
+    width: 200px;
+    min-height: 100%;
+    display: inline-block;
 }
 
 .columns {
     min-height: 500px;
+    width: 100%;
+    display: inline-block;
+}
+
+.solo_column {
+    margin-top: 15px;
+    width: 1360px;
+    margin: auto;
+    background-color: #add8e6;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    background-color: #ddddff;
+    margin-top: 15px;
+    min-height: 150px;
+    display: inline-block;
 }
 
 .column {
@@ -74,31 +111,60 @@ p {
     padding-right: 10px;
 }
 
-.footer {
-    width: 100%;
-    float: left;
-    background-color: #ddddff;
-    margin-top: 15px;
+.links li{
+    display: inline;
+    padding-right: 20px;
+}
+
+@media (max-width: 1400px) {
+    .column_one {
+        margin-left: 1.5%;
+        width: 31.3%;
+    }
+    .column_two {
+        margin-left: 1.5%;
+        width: 31.3%;
+    }
+    .column_three {
+        margin-left: 1.5%;
+        width: 31.4%;
+        margin-right: 1.5%;
+    }
+    .solo_column {
+        width: 980px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .solo_column {
+        width: 740px;
+    }
 }
 
 @media (max-width: 768px) {
-    .column_one {
+    .column_one, .column_two, .column_three, .solo_column {
         width: 96%;
         margin-left: 2%;
         margin-right: 2%;
     }
 
-    .column_two {
+    .column_two, .column_three, .solo_column {
         margin-top: 10px;
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 96%;
     }
+}
 
-    .column_three {
-        margin-top: 10px;
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 96%;
+@media (max-width: 640px) {
+    .column_one, .column_two, .column_three, .solo_column {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    .column_one, .column_two, .column_three, .solo_column {
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
