@@ -6,7 +6,13 @@ var load = function() {
 
 $(document).ready(load);
 
+/*
 $(document).on("click", ".column-one-button", function() {
     alert("Clicked");
     $('div.column-one-list').toggle();
 });
+*/
+
+function hide-column-one(event) {
+    $('div.column-one-list').toggle();
+} 
