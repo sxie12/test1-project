@@ -6,11 +6,7 @@ var load = function() {
 
 $(document).ready(load);
 
-$(document).ready(toggle_col_one);
-
-var toggle_col_one = function() {
-    $('.column-one-button').click(function() {
-        alert("Clicked");
-        $('.column-one-list').toggle();
-    });
-}
+$(document).on("click", ".column-one-button", function() {
+    alert("Clicked");
+    $('div.column-one-list').toggle();
+});
