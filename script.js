@@ -6,9 +6,9 @@ var load = function() {
 
 $(document).ready(load);
 
-$(document).ready(hide-first-column);
+$(document).ready(hide_first_column);
 
-var hide-first-column = function() {
+var hide_first_column = function() {
     $("#column-one-button").click(function() {
         alert("Clicked");
         $('div.column-one-list').toggle();
